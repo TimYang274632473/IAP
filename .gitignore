@@ -4,11 +4,9 @@
 /USER/RTE/
 /USER/JLinkLog.txt
 *.scvd
-*.ini
 *.uvguix.Administrator
 *.TIM
 *.uvotx
-*.uvprojx
 *.map
 
 

@@ -1,6 +1,5 @@
 #include "led.h"
 #include "delay.h"
-#include "key.h"
 #include "sys.h"
 #include "usart.h"
 
@@ -18,12 +17,13 @@ int main(void)
   printf("º¯ÊýÃû %s\n", __FUNCTION__); 
 	while(1)
 	{
-		printf("~:%d ",i++);
-		delay_ms(300);
+		printf("~:%d ",i++);	
+//		printf("Out:%d ",i++);
+		delay_ms(10);
 	}
 	
-//	void (*p)(void) = (void (*)(void))(*((int*)0x08005004));	
-//	NVIC_SetVectorTable(NVIC_VectTab_FLASH,0x08005000);	
+//	void (*p)(void) = (void (*)(void))(*((int*)0x20005004));	
+//	NVIC_SetVectorTable(NVIC_VectTab_FLASH,0x20005000);	
 //	while(1)
 //	{
 //		p();
